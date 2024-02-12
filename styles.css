@@ -242,27 +242,32 @@ footer p {
 @media screen and (max-width: 980px) {
     .principal {
         background-position: 50% 70%;
-        background-size: 80%;
+        background-size: 75%;
     }
 
     .principal ul {
-        display: block;
-        margin-left: 20%
+        display: inline;
+        margin-left: 20%;
     }
 
     .principal ul li {
-        margin-bottom: 3%;
+        margin: auto;
+        padding: 2%;
+        font-size: 120%;
     }
     
     .nome {
+        display: block;
         top: 20%;
-        left: 5%;
+        left: 7%;
+        right: 5%;
         padding: 12%;
         text-align: center;
     }
     
     .nome h1 {
-        font-size: 40px;
+        font-size: 30px;
+        padding-bottom: 3%;
     }
     
     .nome h3 {
